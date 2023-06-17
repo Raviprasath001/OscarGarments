@@ -1,0 +1,82 @@
+.a2a_kit a {
+    cursor: pointer
+}
+
+.a2a_kit,.a2a_menu,.a2a_modal,.a2a_overlay {
+    -ms-touch-action: manipulation;
+    touch-action: manipulation
+}
+
+.a2a_kit .a2a_svg {
+    background-repeat: repeat
+}
+
+.a2a_default_style a:hover .a2a_img, .a2a_default_style a:hover .a2a_svg, .a2a_floating_style a:hover .a2a_img, .a2a_floating_style a:hover .a2a_svg {
+    opacity: .7
+}
+
+.a2a_default_style .a2a_count, .a2a_default_style .a2a_svg, .a2a_floating_style .a2a_svg, .a2a_vertical_style .a2a_count, .a2a_menu .a2a_svg {
+    border-radius: 4px
+}
+
+.a2a_floating_style {
+    background-color: #bb0000 !important;
+    border-radius: 6px;
+    padding: 4px;
+    position: fixed;
+    z-index: 9999995;
+    animation: a2aFadeIn .2s ease-in
+}
+
+.a2a_floating_style.a2a_default_style {
+    bottom: 0
+}
+
+.a2a_floating_style.a2a_default_style a {
+    padding: 4px
+}
+
+.a2a_vertical_style a {
+    clear: left;
+    display: block;
+    overflow: hidden;
+    padding: 4px;
+    text-decoration: none
+}
+
+.a2a_vertical_style .a2a_counter img {
+    display: block
+}
+
+.a2a_vertical_style .a2a_count {
+    float: none;
+    margin-left: 0;
+    margin-top: 6px
+}
+
+.a2a_vertical_style .a2a_count:before, .a2a_vertical_style .a2a_count:after {
+    border: solid transparent;
+    border-width: 0 4px 4px 4px;
+    content: "";
+    height: 0;
+    left: 50%;
+    line-height: 0;
+    margin: -4px 0 0 -4px;
+    position: absolute;
+    top: 0;
+    width: 0
+}
+
+.a2a_vertical_style .a2a_count:before {
+    border-bottom-color: #ccc
+}
+
+.a2a_vertical_style .a2a_count:after {
+    border-bottom-color: #fff;
+    margin-top: -3px
+}
+
+.download_link {
+    color: #fff;
+    margin: 0px;
+}
