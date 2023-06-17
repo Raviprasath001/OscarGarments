@@ -120,7 +120,8 @@ html,body {
     bottom: 0;
     left: 0;
  }
- .logo_image{margin-top:-20px;}
+ .logo_image{width: 113px;
+  margin-top: -13px;}
 .about-im{width: 100%;
     height: auto;margin-top:45px;}
 .about_content{ background-color: rgba(255, 255, 255, 0.4);margin-top:50px; height: auto;}
@@ -997,7 +998,8 @@ footer {
     margin-top: 70px;
 
 }
-.cr{margin-top:20px;}.navbar-fixed-top .logo_image{margin-top:-20px;}
+.cr{margin-top:20px;}.navbar-fixed-top .logo_image{width: 113px;
+  margin-top: -13px;}
 footer .row{margin:0px;}.st1{padding-bottom: 16px;}.st2{padding-bottom:28px;}
 .infrac{padding-bottom:26px;}.st22{padding-bottom:38px;}.st44{padding-bottom:112px;}
 .infra3{height:352px;}.infra4{height:351px;}.infra45{height:358px;}
@@ -1016,7 +1018,8 @@ footer .row{margin:0px;}.st1{padding-bottom: 16px;}.st2{padding-bottom:28px;}
 @media(max-width:991px){.about-im{width:auto;}}
 @media(max-width:991px) and (min-width:768px){.infra1{height:298px;}.stp{padding-bottom: 10px;}.infra3 {height: 308px;}.infra4 {height: 285px;}}
 @media(max-width:883px){.infra11 {height: 330px;}}
-@media(max-width:767px){.contact-thumb{text-align: center;}.navbar-fixed-top .logo_image{margin-top:-25px;}}
+@media(max-width:767px){.contact-thumb{text-align: center;}.navbar-fixed-top .logo_image{width: 113px;
+  margin-top: -13px;}}
 @media(max-width:500px){.about_content{margin-top:30px !important;padding:20px 50px !important;}}
 @media(max-width:400px){#contact{padding:10px;}}
 @media(max-width:330px){.cmail{font-size: 14px;}}
